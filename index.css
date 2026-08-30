@@ -1,0 +1,60 @@
+/* tag */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 65px;
+  height: 100%;
+}
+
+a.delete {
+  color: red;
+}
+
+a.selected {
+  font-weight: bold;
+}
+
+main {
+  height: 100%;
+}
+
+p.bold {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p.bold_header {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.label {
+  font-size: 1em;
+  font-weight: bold;
+  color: #428bca;
+  padding-top: 10px;
+}
+
+#ddFilterTopic {
+  width: 100%;
+  text-align: left;
+}
+
+#ddFilterAuthor {
+  width: 100%;
+  text-align: left;
+}
+
+#dd-filter {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  max-height: 300px;
+}
